@@ -1,46 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T06:26:14.435Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2wlKlFMlg_ZNIrnWABtS" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T07:04:18.092Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="O6bD_FUjGCNTJpc6cgNb" version="20.2.7" type="github">
   <diagram id="vV0CVoXvGQLhpZZ3DmrQ" name="Page-1">
-    <mxGraphModel dx="1981" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2123" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FDAyvnMps7sxtgWpFKgP-6" target="FDAyvnMps7sxtgWpFKgP-8">
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FDAyvnMps7sxtgWpFKgP-45" target="FDAyvnMps7sxtgWpFKgP-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-6" value="候选feed" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="280" width="80" height="80" as="geometry" />
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-45" value="候选feed" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-500" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FDAyvnMps7sxtgWpFKgP-8" target="FDAyvnMps7sxtgWpFKgP-22">
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FDAyvnMps7sxtgWpFKgP-48" target="FDAyvnMps7sxtgWpFKgP-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-8" value="每提升1000 vv触发&lt;br&gt;动态送审模型" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="-60" y="290" width="120" height="60" as="geometry" />
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-48" value="每1000vv&lt;br&gt;触发动态送审" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-490" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-22" value="动态送审模型" style="swimlane;startSize=20;horizontal=0;childLayout=treeLayout;horizontalTree=1;resizable=0;containerType=tree;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="90" y="200" width="310" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-23" value="主模型" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="FDAyvnMps7sxtgWpFKgP-22">
-          <mxGeometry x="40" y="100" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-24" value="内容特征" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="FDAyvnMps7sxtgWpFKgP-22">
-          <mxGeometry x="190" y="20" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-25" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="FDAyvnMps7sxtgWpFKgP-22" source="FDAyvnMps7sxtgWpFKgP-23" target="FDAyvnMps7sxtgWpFKgP-24">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-26" value="行为特征" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="FDAyvnMps7sxtgWpFKgP-22">
-          <mxGeometry x="190" y="100" width="100" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-27" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="FDAyvnMps7sxtgWpFKgP-22" source="FDAyvnMps7sxtgWpFKgP-23" target="FDAyvnMps7sxtgWpFKgP-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-33" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" target="FDAyvnMps7sxtgWpFKgP-34" source="FDAyvnMps7sxtgWpFKgP-23" parent="FDAyvnMps7sxtgWpFKgP-22">
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FDAyvnMps7sxtgWpFKgP-55">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="220" y="280" as="sourcePoint" />
+            <mxPoint x="775" y="-460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FDAyvnMps7sxtgWpFKgP-34" value="低质特征" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="FDAyvnMps7sxtgWpFKgP-22">
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-55" value="动态送审模型" style="swimlane;startSize=20;horizontal=0;childLayout=treeLayout;horizontalTree=1;resizable=0;containerType=tree;fillColor=default;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-580" width="310" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-56" value="主模型" style="whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="FDAyvnMps7sxtgWpFKgP-55">
+          <mxGeometry x="40" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-57" value="行为特征" style="whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="FDAyvnMps7sxtgWpFKgP-55">
+          <mxGeometry x="190" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-58" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="FDAyvnMps7sxtgWpFKgP-55" source="FDAyvnMps7sxtgWpFKgP-56" target="FDAyvnMps7sxtgWpFKgP-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-59" value="内容特征" style="whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="FDAyvnMps7sxtgWpFKgP-55">
+          <mxGeometry x="190" y="100" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-60" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="FDAyvnMps7sxtgWpFKgP-55" source="FDAyvnMps7sxtgWpFKgP-56" target="FDAyvnMps7sxtgWpFKgP-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-65" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" target="FDAyvnMps7sxtgWpFKgP-66" source="FDAyvnMps7sxtgWpFKgP-56" parent="FDAyvnMps7sxtgWpFKgP-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="-540" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-66" value="低质特征" style="whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="FDAyvnMps7sxtgWpFKgP-55">
           <mxGeometry x="190" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="FDAyvnMps7sxtgWpFKgP-111" target="FDAyvnMps7sxtgWpFKgP-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-119" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="FDAyvnMps7sxtgWpFKgP-111" target="FDAyvnMps7sxtgWpFKgP-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-111" value="是否可送审" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="-520" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-115" value="不送审" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="-490" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-117" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="-485" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-118" value="送审规则判断" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="775" y="-290" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FDAyvnMps7sxtgWpFKgP-120" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-365" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
