@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T08:14:46.749Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="8QmuxH_GRm6k7U0HuUuV" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-30T08:15:34.137Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="N09wGZVMgeUbHtxVzC3H" version="20.2.7" type="github">
   <diagram id="vV0CVoXvGQLhpZZ3DmrQ" name="Page-1">
     <mxGraphModel dx="2916" dy="2226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -170,6 +170,12 @@
               <mxPoint x="320" y="-445" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="M_FkVfoMa9y12orWwFDA-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="M_FkVfoMa9y12orWwFDA-24" target="M_FkVfoMa9y12orWwFDA-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M_FkVfoMa9y12orWwFDA-24" value="&lt;span style=&quot;&quot;&gt;离线导入种子库&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="-110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
